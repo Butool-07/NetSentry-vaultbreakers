@@ -1,0 +1,19 @@
+test_case,status,evidence_and_limitations
+Normal traffic produces no rule alerts,PASS,Verified normal sample produced zero alerts.
+Port scan detection,PASS,Simulated scan detected in advanced detection test.
+Network sweep detection,PASS,Simulated sweep detected in advanced detection test.
+Lateral movement indicator,PASS,Simulated lateral movement indicator detected.
+Approved scanner suppression,PASS,Approved scanner test produced no rule alerts.
+Patch server suppression,PASS,Configured patch-server test produced zero alerts.
+Scheduled backup and maintenance helper,PASS,Four helper tests passed.
+Alternate CSV normalization,PASS,Alternate column names normalized successfully.
+Zeek-style column normalization,PASS,Simulated Zeek-style columns normalized successfully.
+Unapproved TCP destination port,PASS,Isolated demonstration test detected the configured unapproved port.
+Possible large outbound transfer,PASS,Isolated simulated transfer test flagged the configured threshold.
+New external destination,PASS,Isolated baseline comparison flagged one unseen external destination.
+Advanced detection report validation,PASS,"Required columns, rules, evidence and risk-score ranges validated."
+Dashboard HTML and CSV exports,PASS,Exports were manually opened and checked.
+Beaconing and connection periodicity,PASS,Simulated periodic connections were identified for review.
+End-to-end integration of every new rule,NOT TESTED,"Several new-rule checks are isolated tests, not integrated into the main detector."
+Raw Zeek TSV file ingestion,NOT TESTED,"Zeek-style column mapping was tested with a simulated DataFrame, not a raw TSV file."
+Comprehensive false-positive and missed-detection analysis,PARTIAL,Limited simulated cases were tested; broad performance is not established.

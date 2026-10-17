@@ -1,0 +1,4 @@
+source_ip,rule,start_time,end_time,evidence,risk_score,explanation
+192.168.1.50,Possible Port Scan,2026-10-16 10:00:00,2026-10-16 10:11:00,12 unique destination ports,52,The source contacted many unique destination ports.
+192.168.1.50,Possible Network Sweep,2026-10-16 10:00:00,2026-10-16 10:11:00,12 unique destination hosts,52,The source contacted many unique destination hosts.
+192.168.1.50,Possible Lateral Movement,2026-10-16 10:00:00,2026-10-16 10:11:00,12 unique internal destination hosts,62,The source contacted many unique internal destination hosts.

@@ -1,0 +1,2 @@
+source_ip,destination_ip,connection_count,median_gap_seconds,gap_variation_seconds,possible_beaconing
+192.168.1.60,203.0.113.25,6,60.0,0.0,True

@@ -1,0 +1,4 @@
+source_ip,rule,evidence,risk_score
+192.168.1.50,Possible Port Scan,12 unique destination ports,52
+192.168.1.50,Possible Network Sweep,12 unique destination hosts,52
+192.168.1.50,Possible Lateral Movement,12 unique internal destination hosts,62

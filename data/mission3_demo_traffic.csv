@@ -1,0 +1,21 @@
+timestamp,source_ip,destination_ip,packets,bytes,scenario
+2026-10-16 10:00:00,192.168.1.10,192.168.1.1,12,1500,Normal simulated traffic
+2026-10-16 10:01:00,192.168.1.10,192.168.1.1,13,1600,Normal simulated traffic
+2026-10-16 10:02:00,192.168.1.10,192.168.1.1,14,1700,Normal simulated traffic
+2026-10-16 10:03:00,192.168.1.10,192.168.1.1,12,1500,Normal simulated traffic
+2026-10-16 10:04:00,192.168.1.10,192.168.1.1,13,1600,Normal simulated traffic
+2026-10-16 10:05:00,192.168.1.10,192.168.1.1,14,1700,Normal simulated traffic
+2026-10-16 10:06:00,192.168.1.10,192.168.1.1,12,1500,Normal simulated traffic
+2026-10-16 10:07:00,192.168.1.10,192.168.1.1,13,1600,Normal simulated traffic
+2026-10-16 10:08:00,192.168.1.10,192.168.1.1,14,1700,Normal simulated traffic
+2026-10-16 10:09:00,192.168.1.10,192.168.1.1,12,1500,Normal simulated traffic
+2026-10-16 10:10:00,192.168.1.50,192.168.1.1,500,75000,Suspicious simulated volume
+2026-10-16 11:00:00,192.168.1.60,203.0.113.25,8,700,Simulated repeated external connections
+2026-10-16 11:01:00,192.168.1.60,203.0.113.25,8,700,Simulated repeated external connections
+2026-10-16 11:02:00,192.168.1.60,203.0.113.25,8,700,Simulated repeated external connections
+2026-10-16 11:03:00,192.168.1.60,203.0.113.25,8,700,Simulated repeated external connections
+2026-10-16 11:04:00,192.168.1.60,203.0.113.25,8,700,Simulated repeated external connections
+2026-10-16 11:05:00,192.168.1.60,203.0.113.25,8,700,Simulated repeated external connections
+2026-10-16 02:00:00,192.168.1.70,192.168.1.80,300,50000,Simulated scheduled backup
+2026-10-16 02:01:00,192.168.1.70,192.168.1.80,310,51000,Simulated scheduled backup
+2026-10-16 02:02:00,192.168.1.70,192.168.1.80,320,52000,Simulated scheduled backup

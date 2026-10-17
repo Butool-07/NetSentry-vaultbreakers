@@ -1,0 +1,5 @@
+scenario,records,maximum_packets,maximum_bytes,volume_indicators
+Normal simulated traffic,10,14,1700,0
+Simulated repeated external connections,6,8,700,0
+Simulated scheduled backup,3,320,52000,0
+Suspicious simulated volume,1,500,75000,1

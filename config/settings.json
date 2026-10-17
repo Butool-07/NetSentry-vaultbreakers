@@ -1,0 +1,32 @@
+
+
+{
+  "trusted_servers": [
+    "192.168.1.1"
+  ],
+  "approved_scanners": [
+    "192.168.1.20"
+  ],
+  "patch_servers": [
+    "192.168.1.30"
+  ],
+  "backup_schedule": {
+    "start_hour": 1,
+    "end_hour": 4
+  },
+  "maintenance_schedule": {
+    "start_hour": 2,
+    "end_hour": 5
+  },
+  "detection_thresholds": {
+    "port_scan_unique_ports": 10,
+    "network_sweep_unique_hosts": 10,
+    "lateral_movement_unique_hosts": 5
+  },
+  "trusted_activity_rules": {
+    "ignore_approved_scanners": true,
+    "ignore_patch_server_sources": true,
+    "allow_scheduled_backups": true,
+    "allow_scheduled_maintenance": true
+  }
+}

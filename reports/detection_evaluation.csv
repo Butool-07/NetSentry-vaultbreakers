@@ -1,0 +1,10 @@
+scenario,rule,expected_alert,actual_alert,outcome
+Suspicious simulated traffic,Possible Port Scan,True,True,True Positive
+Suspicious simulated traffic,Possible Network Sweep,True,True,True Positive
+Suspicious simulated traffic,Possible Lateral Movement,True,True,True Positive
+Normal traffic,Possible Port Scan,False,False,True Negative
+Normal traffic,Possible Network Sweep,False,False,True Negative
+Normal traffic,Possible Lateral Movement,False,False,True Negative
+Approved scanner,Possible Port Scan,False,False,True Negative
+Approved scanner,Possible Network Sweep,False,False,True Negative
+Approved scanner,Possible Lateral Movement,False,False,True Negative
